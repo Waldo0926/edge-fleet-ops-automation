@@ -1,0 +1,12 @@
+[
+  {
+    "node_id": "edge-node-a",
+    "label": "lab-node-a",
+    "hosts": ["2001:db8::10"]
+  },
+  {
+    "node_id": "edge-node-b",
+    "label": "lab-node-b",
+    "hosts": ["2001:db8::11"]
+  }
+]
