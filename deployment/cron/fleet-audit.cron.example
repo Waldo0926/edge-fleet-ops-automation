@@ -1,0 +1,6 @@
+# Example only. Adjust the path and environment for your host.
+# Read-only disk health audit every 30 minutes.
+*/30 * * * * cd /opt/edge-fleet-ops-automation && . .venv/bin/activate && EDGE_CONTROL_API=https://control.example.invalid/api/nodes edge-fleet-ops audit-disk --nodes config/nodes.example.json >> var/log/disk-audit.log 2>&1
+
+# Read-only workload health check every 10 minutes.
+*/10 * * * * cd /opt/edge-fleet-ops-automation && . .venv/bin/activate && EDGE_CONTROL_API=https://control.example.invalid/api/nodes edge-fleet-ops check-workloads --nodes config/nodes.example.json >> var/log/workload-health.log 2>&1
