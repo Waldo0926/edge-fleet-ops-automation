@@ -3,7 +3,7 @@
 [![Type](https://img.shields.io/badge/Type-Infrastructure_Automation-2563eb?style=for-the-badge)](#)
 [![Tech](https://img.shields.io/badge/Tech-Python_%7C_Linux_%7C_SSH_%7C_Docker-7c3aed?style=for-the-badge)](#)
 [![Tests](https://img.shields.io/badge/Tests-pytest-16a34a?style=for-the-badge)](#)
-[![Status](https://img.shields.io/badge/Status-Archived_Portfolio-475569?style=for-the-badge)](#项目状态)
+[![Status](https://img.shields.io/badge/Status-Historical_Deployment-475569?style=for-the-badge)](#项目状态)
 
 [English](README.md) · **简体中文**
 
@@ -143,4 +143,4 @@ Docker 显示 `running` 并不代表业务一定健康。工作负载检查可�
 
 ## 项目状态
 
-**Archived / Portfolio Project。** 原部署已经停止或发生变化；这个仓库作为脱敏后的作品集版本保留，用于展示 SRE/DevOps、Linux 系统工程和基础设施自动化能力。
+**历史部署已停用，公开仓库保留参考。** 原部署已经停止或发生变化；这个仓库作为脱敏后的作品集版本保留，用于展示 SRE/DevOps、Linux 系统工程和基础设施自动化能力。
